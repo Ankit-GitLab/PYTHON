@@ -11,4 +11,4 @@ precentage = 98.7
 is_student = True
 
 #print with separator
-print(name, roll_number, precentage, is_student, sep=" - " )
+print(name, roll_number, precentage, is_student, sep=" -> " )
