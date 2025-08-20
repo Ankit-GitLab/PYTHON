@@ -12,5 +12,10 @@ is_student = True
 
 print(name)
 print(roll_number)
-print(precentage)
+print(type(precentage))
 print(is_student)
+
+print(f"my name is: {name},\n roll number is {roll_number}, percentage is: {precentage}")
+
+#print with separator
+print(name, roll_number, precentage, is_student, sep=" -" )
