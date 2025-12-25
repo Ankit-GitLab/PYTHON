@@ -1,3 +1,0 @@
-Name: Ankit kumar
-Age: 18
-Marks: 95

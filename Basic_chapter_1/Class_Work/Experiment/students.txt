@@ -1,5 +1,0 @@
-Name	Marks
---------------
-Moto	18
-Radha	20
-Muskan	21

@@ -1,1 +1,0 @@
-print("hello,\n Ankit singh bhumihar...")
