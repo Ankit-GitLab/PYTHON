@@ -5,7 +5,8 @@ idx = 0
 
 while idx < len(nums):
 
-    if nums[idx] == search:
+    if (nums[idx] == search):
         print("index is ",idx)
+        break
    
     idx += 1
