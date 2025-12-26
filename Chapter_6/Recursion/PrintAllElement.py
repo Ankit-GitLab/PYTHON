@@ -7,5 +7,4 @@ def print_Ele(list, idx = 0):
     print(list[idx],end=" ")
     return print_Ele(list, idx+1)
 
-print_Ele(list)
-
+print_Ele(list,0) 
