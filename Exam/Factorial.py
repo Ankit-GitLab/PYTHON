@@ -1,20 +1,13 @@
-def fact(n):
-    if(n==0 or n==1):
-        return 1
-    else:
-        return n * fact(n-1)
+import turtle
 
+t = turtle.Turtle()
+sides = 6           # change value for different polygon
+length = 100
 
-num = int(input("Enter a number: "))
-temp = num
-sum_fact = 0
+angle = 360 / sides
 
-while temp > 0:
-    digit = temp % 10
-    sum_fact += fact(digit)
-    temp //= 10
+for i in range(sides):
+    t.forward(length)
+    t.right(angle)
 
-if sum_fact == num:
-    print(num, "is a Strong Number")
-else:
-    print(num, "is NOT a Strong Number")
+turtle.done()
